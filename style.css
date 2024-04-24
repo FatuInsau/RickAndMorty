@@ -5,7 +5,7 @@
 
 body {
     background-color: whitesmoke;
-    background-image: url(./fondo-rickandmorty.jpg);
+    background-image: url(./fondo.png);
     background-size: 200px;
 }
 
@@ -20,7 +20,7 @@ body {
 }
 
 .personaje {
-    box-shadow: 6px 5px 9px #02596550;
+    box-shadow: 8px 11px 15px #02596587;
     border-radius: 10px;
     padding: 10px;
     width: 20em;
@@ -41,9 +41,10 @@ h2 {
 #titulo {
     margin-bottom: 3rem;
     width: 50%;
-    margin: auto 0;
-    background-color: white;
+    margin-top: 2rem;
+    background-color: rgba(255, 255, 255, 0.838);
     border-radius: 99px;
+    /* box-shadow: inset #143a51a1 0px 0px 20px 5px; */
 }
 
 img {
@@ -99,7 +100,7 @@ a p {
 footer {
     flex-grow: 1;
     color: black;
-    background-color: #01525df7;
+    background-color: #01525df0;
     padding: 20px 40px;
     display: flex;
     justify-content: space-between;
@@ -117,13 +118,20 @@ footer {
     padding: 8px;
 }
 
-@media (max-width:700px) {
+@media (max-width:870px) {
     button{
         padding: 1.1em 2.5em;
         font-size: 0.9rem;
     }
     .personaje {
-        width: 19em;
+        width: 15em;
+    }
+
+    #titulo{
+        width: 70%;
+    }
+    nav {
+        padding: 3rem 5rem;
     }
 }
 
@@ -139,6 +147,10 @@ footer {
 
     nav {
         padding: 1.5em 3em;
+    }
+
+    #titulo{
+        width: 90%;
     }
     
 }
