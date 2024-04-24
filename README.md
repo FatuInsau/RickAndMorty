@@ -2,4 +2,4 @@
 
 I made this app with Javascript and Rick and Morty's Appi
 
-![app](./src/assets/app.png)
+![app](./Pagina.png)
