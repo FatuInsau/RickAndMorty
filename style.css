@@ -97,6 +97,11 @@ a p {
     padding: 0;
 }
 
+#parrafo {
+    background-color: white;
+    font-size: 20px;
+}
+
 footer {
     flex-grow: 1;
     color: black;
@@ -152,5 +157,10 @@ footer {
     #titulo{
         width: 90%;
     }
+
+    #parrafo {
+        font-size: 15px;
+    }
+    
     
 }

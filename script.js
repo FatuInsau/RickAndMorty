@@ -19,7 +19,7 @@ let paginaActual=1;
 function show (personajes) {
     $divPersonajes.innerHTML='';
     if (personajes.length === 0) {
-        $divPersonajes.innerHTML='<p>There is no that genre on this page.</p>'
+        $divPersonajes.innerHTML='<p id="parrafo">There is no that genre on this page.</p>'
     }
     for(let personaje of personajes) {
         $divPersonajes.innerHTML+=`<div class="personaje">
