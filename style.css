@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+#personajes {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    min-height: 180px;
+}
+
+.personaje {
+    box-shadow: 6px 5px 9px #02596550;
+    border-radius: 10px;
+    padding: 10px;
+    width: 20em;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 8px 0;
+}
+
+.imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo {
+    margin-bottom: 3rem;
+    width: 70%;
+    margin: auto 0;
+}
+
+img {
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+
+nav {
+    padding: 3em;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+button {
+    padding: 1.5em 3em;
+    border: none;
+    border-radius: 15px;
+    background-color: #00b1c8;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #11252f;
+}
+
+button:disabled {
+    background-color: grey;
+}
+
+.paginado {
+    padding: 20px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+footer {
+    flex-grow: 1;
+    color: black;
+    background-color: #01535da9;
+    padding: 40px;
+}
+
+@media (max-width:700px) {
+    button{
+        padding: 1.1em 2.5em;
+        font-size: 0.9rem;
+    }
+    .personaje {
+        width: 19em;
+    }
+}
+
+@media (max-width:450px) {
+    button{
+        padding: 0.7em 1.7em;
+        font-size: 0.8rem;
+    }
+
+    .personaje {
+        width: 18em;
+    }
+
+    nav {
+        padding: 1.5em 3em;
+    }
+    
+}
